@@ -1,0 +1,85 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* Hero Section */
+#hero-back-img1 {
+  background-image: url("../images/banner.png");
+}
+#hero-back-img2 {
+  background-image: url("../images/wedding.png");
+}
+#hero-back-img3 {
+  background-image: url("../images/people.png");
+}
+.hero-back-img {
+  background-size: cover;
+  height: 70vh;
+  text-align: center;
+  color: white;
+}
+.hero-back-img h1 {
+  margin-top: 200px;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+.hero-back-img p {
+  color: rgb(228, 228, 228);
+  font-size: 1rem;
+}
+/* Our Package */
+.fa-check-circle {
+  color: #5243c2e1;
+  /* background-color: #5243c2; */
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
+.price-button {
+  background-color: #fff3fa;
+  color: #3f87f5;
+  border-radius: 20px;
+}
+#special-card {
+  background-color: #5243c275;
+  padding: 30px;
+}
+
+#special-text {
+  background-color: red;
+  display: inline-block;
+  color: white;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  padding: 3px 2px;
+  top: -8px;
+  right: 40px;
+}
+/* FAQ */
+.fa-question {
+  font-size: 12rem;
+  padding-left: 60px;
+}
+footer img {
+  width: 150px;
+}
+footer {
+  margin-top: 100px;
+}
+.gallery img:hover {
+  transform: scale(1.15);
+  filter: grayscale(50%);
+  transition: transform 1s, filter 1s;
+}
+.toast {
+  z-index: 100;
+  top: 80px;
+  right: 0px;
+}
